@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+}
+
+.details {
+    font-size: 0.95rem;
+    margin-bottom: .1rem;
+}
+
+.details::first-letter {
+    font-size: 1.2rem;
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: .08rem;
+}
+
+.source {
+    font-size: 0.7rem;
+}
+
+.author {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.main {
+    padding: 2rem 1rem;
+}
+
+.card{
+    width: 50ch;
+    margin: 0 auto 32px;
+    padding-bottom: 1rem;
+    box-shadow: 0px 5px 2px -2px #cccc;
+}
+
+
+.title {
+    margin-bottom: .4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.paginate {
+    color: blue;
+}
+
+.p-link {
+    margin: 0 4px;
+}
+
+@media screen and (max-width: 530px) {
+    .card {
+        width: 100%;
+    }
+}
